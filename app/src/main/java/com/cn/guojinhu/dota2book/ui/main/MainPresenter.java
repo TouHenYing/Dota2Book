@@ -41,7 +41,7 @@ public class MainPresenter implements MainContract.Presenter {
 
     @Override
     public void manageFragment(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.nav_news:
                 mMainView.switch2News();
                 break;

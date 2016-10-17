@@ -30,6 +30,9 @@ public class MainActivity extends BaseActivity
 
     private MainPresenter mMainPresenter;
 
+    private static final int NEWS = 0;
+    private static final int HEROES = 1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
